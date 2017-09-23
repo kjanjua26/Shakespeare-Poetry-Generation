@@ -52,5 +52,6 @@ for i in range(gen_chars):
 	file.write(res)
 	p.append(index)
 	p = p[1:len(p)]
+file.close() #Closing the file.
 print "\nOutput Generated."
 
